@@ -1,0 +1,22 @@
+.about__wrapper {
+    position: relative;
+}
+#sw-js-blob-svg {
+    position: absolute;
+    width: 100%;
+    top: -5rem;
+    left: 0;
+    max-width: 60rem;
+    z-index: -1;
+}
+.about {
+    padding: 10rem 0;
+    position: relative;
+    z-index: 9;
+}
+
+@media screen and (min-width: 1440px)  {
+    #sw-js-blob-svg {
+        left: 10rem;
+    }
+}
